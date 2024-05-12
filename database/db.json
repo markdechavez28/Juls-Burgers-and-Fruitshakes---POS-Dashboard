@@ -1,0 +1,536 @@
+{
+    "employees":[
+        {
+            "category": "User",
+            "code": 101,
+            "name": "Juan Dela Cruz",
+            "role": "Cashier 1"
+        },
+        {
+            "category": "User",
+            "code": 102,
+            "name": "Maria Santos",
+            "role": "Cashier 2"
+        }
+    ],
+    "products":[
+        {
+            "category": "Sandwiches",
+            "code": 201,
+            "item": "Burger",
+            "price": 20,
+            "status": "Available",
+            "image": "assets/product images/201.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 202,
+            "item": "Cheeseburger",
+            "price": 27,
+            "status": "Available",
+            "image": "assets/product images/202.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 203,
+            "item": "Egg Sandwich",
+            "price": 25,
+            "status": "Available",
+            "image": "assets/product images/203.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 204,
+            "item": "Egg with Cheese",
+            "price": 32,
+            "status": "Available",
+            "image": "assets/product images/204.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 205,
+            "item": "Burger with Egg",
+            "price": 35,
+            "status": "Available",
+            "image": "assets/product images/205.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 206,
+            "item": "Cheeseburger with Egg",
+            "price": 42,
+            "status": "Available",
+            "image": "assets/product images/206.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 207,
+            "item": "Ham Sandwich",
+            "price": 27,
+            "status": "Available",
+            "image": "assets/product images/207.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 208,
+            "item": "Ham with Cheese",
+            "price": 32,
+            "status": "Available",
+            "image": "assets/product images/208.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 209,
+            "item": "Ham with Egg",
+            "price": 40,
+            "status": "Available",
+            "image": "assets/product images/209.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 210,
+            "item": "Ham with Egg and Cheese",
+            "price": 45,
+            "status": "Available",
+            "image": "assets/product images/210.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 211,
+            "item": "Burger with Ham",
+            "price": 35,
+            "status": "Available",
+            "image": "assets/product images/211.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 212,
+            "item": "Burger with Ham and Egg",
+            "price": 48,
+            "status": "Available",
+            "image": "assets/product images/212.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 213,
+            "item": "Cheeseburger with Ham",
+            "price": 40,
+            "status": "Available",
+            "image": "assets/product images/213.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 214,
+            "item": "All In Sandwich",
+            "price": 53,
+            "status": "Available",
+            "image": "assets/product images/214.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sandwiches",
+            "code": 215,
+            "item": "Coleslaw Add On",
+            "price": 5,
+            "status": "Available",
+            "image": "assets/product images/215.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Hotdogs",
+            "code": 301,
+            "item": "Footlong",
+            "price": 50,
+            "status": "Available",
+            "image": "assets/product images/301.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Hotdogs",
+            "code": 302,
+            "item": "Halflong",
+            "price": 25,
+            "status": "Available",
+            "image": "assets/product images/302.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Hotdogs",
+            "code": 303,
+            "item": "TJ on Bun",
+            "price": 40,
+            "status": "Available",
+            "image": "assets/product images/303.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Hotdogs",
+            "code": 304,
+            "item": "TJ Hotdog",
+            "price": 18,
+            "status": "Available",
+            "image": "assets/product images/304.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Hotdogs",
+            "code": 305,
+            "item": "Bossing Hotdog",
+            "price": 15,
+            "status": "Available",
+            "image": "assets/product images/305.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sides",
+            "code": 401,
+            "item": "Salt French Fries",
+            "price": 25,
+            "status": "Available",
+            "image": "assets/product images/401.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sides",
+            "code": 402,
+            "item": "Cheese French Fries",
+            "price": 25,
+            "status": "Available",
+            "image": "assets/product images/401.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sides",
+            "code": 403,
+            "item": "BBQ French Fries",
+            "price": 25,
+            "status": "Available",
+            "image": "assets/product images/401.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sides",
+            "code": 404,
+            "item": "Sour Cream French Fries",
+            "price": 25,
+            "status": "Available",
+            "image": "assets/product images/401.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Sides",
+            "code": 405,
+            "item": "Cheese Sticks",
+            "price": 20,
+            "status": "Available",
+            "image": "assets/product images/402.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Dimsum",
+            "code": 501,
+            "item": "Fried Pork Siomai",
+            "price": 30,
+            "status": "Available",
+            "image": "assets/product images/403.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 601,
+            "item": "Mango Fruit Shake",
+            "price": 50,
+            "sizes": {
+              "small": 0,
+              "medium": 20,
+              "large": 40
+            },
+            "status": "Available",
+            "image": "assets/product images/501.png",
+            "product_sold": 0
+          },
+        {
+            "category": "Fruit Shakes",
+            "code": 602,
+            "item": "Avocado Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/502.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 603,
+            "item": "Banana Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/503.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 604,
+            "item": "Guyabano Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/504.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 605,
+            "item": "Dragon Fruit Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/505.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 606,
+            "item": "Melon Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/506.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 607,
+            "item": "Apple Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/507.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 608,
+            "item": "Buko Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/508.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 609,
+            "item": "Carrot Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/509.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 610,
+            "item": "Watermelon Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/510.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Fruit Shakes",
+            "code": 611,
+            "item": "Pineapple Fruit Shake",
+            "price": 50,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 40
+              },
+            "status": "Available",
+            "image": "assets/product images/511.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Smoothies",
+            "code": 701,
+            "item": "Mango-Banana Smoothie",
+            "price": 60,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 45
+              },
+            "status": "Available",
+            "image": "assets/product images/601.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Smoothies",
+            "code": 702,
+            "item": "Mango-Melon Smoothie",
+            "price": 60,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 45
+              },
+            "status": "Available",
+            "image": "assets/product images/602.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Smoothies",
+            "code": 703,
+            "item": "Mango-Carrot Smoothie",
+            "price": 60,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 45
+              },
+            "status": "Available",
+            "image": "assets/product images/603.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Smoothies",
+            "code": 704,
+            "item": "Banana-Apple Smoothie",
+            "price": 60,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 45
+              },
+            "status": "Available",
+            "image": "assets/product images/604.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Smoothies",
+            "code": 705,
+            "item": "Banana-Carrot Smoothie",
+            "price": 60,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 45
+              },
+            "status": "Available",
+            "image": "assets/product images/605.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Smoothies",
+            "code": 706,
+            "item": "Banana-Guyabano Smoothie",
+            "price": 60,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 45
+              },
+            "status": "Available",
+            "image": "assets/product images/606.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Special Shake",
+            "code": 801,
+            "item": "Mango-Graham Special",
+            "price": 85,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 35
+              },
+            "status": "Available",
+            "image": "assets/product images/701.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Special Shake",
+            "code": 802,
+            "item": "Strawberry and Cream Special",
+            "price": 85,
+            "sizes": {
+                "small": 0,
+                "medium": 20,
+                "large": 35
+              },
+            "status": "Available",
+            "image": "assets/product images/702.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Add Ons",
+            "code": 901,
+            "item": "Crushed Graham",
+            "price": 15,
+            "status": "Available",
+            "image": "assets/product images/801.png",
+            "product_sold": 0
+        },
+        {
+            "category": "Add Ons",
+            "code": 902,
+            "item": "Pearl",
+            "price": 10,
+            "status": "Available",
+            "image": "assets/product images/802.png",
+            "product_sold": 0
+        }
+    ]
+}
